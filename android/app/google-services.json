@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "46164061221",
+    "project_id": "fan-page-firebase-hw",
+    "storage_bucket": "fan-page-firebase-hw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46164061221:android:38e66ddd1447b020baa3cc",
+        "android_client_info": {
+          "package_name": "com.chrisp3.fanpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46164061221-nnobehf1p5qjc8pvrfv12lqttl8dd0rg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chrisp3.fanpage",
+            "certificate_hash": "a2e9e47dc994a6b16f01cc932ada6076993b3886"
+          }
+        },
+        {
+          "client_id": "46164061221-iipivh8fmhp3u5f0lbt35hd9daofemvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp5cHj3seeMdDxr7wR04l5gZNxEHkvEN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46164061221-iipivh8fmhp3u5f0lbt35hd9daofemvs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "46164061221-ceucsmbc0v0v024i3k0hhl41vthejlsq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chrisp3.fanpage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
