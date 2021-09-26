@@ -2,7 +2,6 @@ import 'package:fanpage/driver.dart';
 import 'package:fanpage/views/register_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:fanpage/ui/loading.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class LoginPage extends StatefulWidget {
@@ -30,7 +29,6 @@ class _LoginState extends State<LoginPage> {
     super.dispose();
   }
 
-  bool _loading = false;
   String _email = "";
   String _password = "";
 
@@ -86,7 +84,6 @@ class _LoginState extends State<LoginPage> {
           _password = _passwordController.text;
 
           setState(() {
-            _loading = true;
             login();
           });
         }
@@ -198,8 +195,6 @@ class _LoginState extends State<LoginPage> {
       print(e);
     }
 
-    setState(() {
-      _loading = false;
-    });
+    setState(() {});
   }
 }
