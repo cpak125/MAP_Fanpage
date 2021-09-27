@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     final splashImage = Container(
       padding: EdgeInsets.only(top: 20.0),
       child: Image.asset(
-        "assets/placeholder.png",
+        "assets/profile.png",
         height: 300.0,
       ),
     );

@@ -49,8 +49,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/me.png
-    - assets/placeholder.png
+    - assets/profile.png
     - assets/google_logo.png
   #   - images/a_dot_ham.jpeg
 
