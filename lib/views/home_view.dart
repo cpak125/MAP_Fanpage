@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     final splashImage = Container(
       padding: EdgeInsets.only(top: 20.0),
       child: Image.asset(
-        "assets/profile.png",
+        "assets/me.png",
         height: 300.0,
       ),
     );
@@ -155,7 +155,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> _getUserRole() async {
     await _db
         .collection('users')
-        .doc(_auth.currentUser!.uid)
+        .doc(_auth.currentUser?.uid)
         .get()
         .then((DocumentSnapshot documentSnapshot) {
       if (documentSnapshot.exists) {
